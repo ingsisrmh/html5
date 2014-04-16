@@ -1,0 +1,1278 @@
+
+/*RESETEO DE VALORES*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*vertical-align: middle;*/}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+	
+body 
+{
+   /* line-height: 1;*/
+    font-family:Arial,sans-serif;
+    font-size:13px;}
+	
+ol, ul {list-style: none;}
+	
+blockquote, q {quotes: none;}
+	
+blockquote:before, blockquote:after,
+q:before, q:after 
+{
+	content: '';
+	content: none;}
+
+input[type="radio"] {margin-top: 6px;}
+    
+ins {text-decoration: none;}
+
+del {text-decoration: line-through;}
+
+table 
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top:0px;
+}
+
+p
+{      
+      text-align: left; 
+      line-height: 18px; 
+      margin-top:10px;
+      margin-bottom:10px;
+ }
+
+#ctl00_MCPH_UpdatePanel1
+{
+    height:10px;
+}
+
+#ctl00_MCPH_HL_Back1
+{
+    float:right;}
+    
+#ctl00_MCPH_HL_Back
+{
+    float:right;}
+    
+fieldset
+{
+    margin:0;
+    margin-left:0;
+    padding:0;
+    padding-top:20px;
+    padding-left:0;
+}
+ 
+#ctl00_MCPH_PV_PCOP
+{
+    margin:0;
+}
+
+/*FIN DE RESETEO DE VALORES*/
+
+#page
+{
+  min-width:100%;  
+}
+
+#licenses p
+{
+    color:#333;
+    /*margin-top:0;*/
+
+}
+
+#divLinks
+{
+	font-weight:normal;
+	float: right;
+/*	margin-top:5px;
+	margin-bottom:15px;
+	margin-bottom:15px!important!;*/
+	margin-top: 15px;
+	margin-top:9px!important!;
+}
+
+#divLinks a
+{
+    float: none;
+}
+
+.divLinksAdvanced
+{
+    padding-top: 273px;
+    padding-top: 272px!important!;
+}
+
+.textoVerde
+{
+	color:#009036;	
+}
+
+.textoRojo
+{
+	color:red;	
+}
+
+.textoGris
+{
+    color:#888888;
+}
+
+.textoRojoDark
+{
+    color:#c30;
+}
+
+.warningIcon
+{
+    background: url(Images/ico_aviso.gif) no-repeat top left;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+#period p
+{
+  text-align:right;
+  margin-bottom:6px;
+}
+
+#period p input.button
+{
+	vertical-align:top;
+}
+
+#AllLink, #RecentLink
+{
+	float:right;
+	margin-top: -12px;
+}
+
+#advises ul.advises 
+{
+	margin:0;
+	margin-left:99px;
+	margin-left:76px !important!;
+	padding:0;
+}
+
+#advises #critical_advises_content
+{
+    margin-top:10px;
+	/**margin-top:10px;
+	margin-top:-10px;*/
+}
+
+#advises #other_advises_content
+{
+	//padding-top:0 !important;
+    padding-top:0;
+	_padding-top:0 !important;
+}
+
+#advises #other_advises_content .AspNet-GridView-Table thead
+{
+	display: none;
+}
+
+#advises .grid_content_advises .new
+{
+    vertical-align: top;
+	font-weight: bold;
+	color: #760000;
+	width:80px;
+	text-align: center;
+}
+
+#advises .grid_content_advises table td
+{
+    padding:0;
+}
+#advises .grid_content_advises table td.emptyCell
+{
+	padding-left:60px;
+}
+
+#advises .grid_content_advises table td.bola
+{
+    vertical-align: top;
+	/*padding-right:3px !important;*/
+	padding-top:4px;
+	padding-right:8px;
+	_padding-right:3px !important;
+}
+
+#advises .grid_content_advises table td.notification div.inner
+{
+    padding-bottom:10px;
+}
+paddingpadding-bottom:10px;-bottom:10px;
+#advises p
+{
+	color:#333;
+	margin-top: -5px;
+	margin-top: -15px !important!;
+}
+
+
+#licenses #licenses_p, #licenses #licenses_osx
+{
+	margin-top:5px;
+	/*margin-top:-10px !important!;*/
+	margin-left:60px;
+}
+
+#licenses #titleLicensesPcop div div#text
+{
+	padding-top: 3px;
+	background: none;
+	margin-left: -31px;
+}
+
+#licenses #titleLicensesPcop div div.right
+{
+	margin-top: -8px;
+	background: none;
+	margin-left: -31px;
+}
+
+#licenses #titleLicensesPcop div div span
+{
+	color: #888888;
+}
+
+#licenses div.right
+{
+	margin-top: -8px;
+	background: none;
+	margin-left: -31px;
+}
+
+#licenses #ctl00_MCPH_titleLicensesPcop.pcop 
+{
+	margin-top: 20px;
+	/*margin-top:-10px !important!;*/
+	margin-left: 53px;
+	padding-left: 31px;
+	background: url("Images/ico_pcop.png") no-repeat scroll 0 0 transparent;
+	height: 24px;
+}
+
+#licenses #ctl00_MCPH_titleLicensesPcop.pcopa 
+{
+	margin-top: 20px;
+	/*margin-top:-10px !important!;*/
+	margin-left: 53px;
+	padding-left: 31px;
+	background: url("Images/ico_pcopa.png") no-repeat scroll 0 0 transparent;
+	height: 24px;
+}
+
+#licenses .mac 
+{
+	margin-top: 10px;
+	/*margin-top:-10px !important!;*/
+	margin-left: 53px;
+	padding-left: 31px;
+	background: url("Images/ico_pcopmac.png") no-repeat scroll 0 0 transparent;
+	height: 24px;
+}
+
+.LicensesOther
+{
+	float:left;
+	background: url(Images/icono_info.gif) no-repeat;
+	padding-left:24px;
+	margin-top: 15px;
+}
+
+.LicensesPCOP
+{
+	background: url(Images/PCOP_12x12.gif) no-repeat;
+	padding-left:24px;
+	padding-bottom: 5px;
+}
+
+#ctl00_MCPH_divLicensesText, #ctl00_MCPH_divLicensesTextOSX{padding-left:24px;}
+
+#licenses_p div.left, #licenses_osx div.left{float:left;}
+
+#licenses div.right{float:right;}
+
+#licenses_p ul 
+{
+	list-style:none;
+	list-style-image:none;
+	padding:0;
+	margin:0;
+}
+
+#licenses_p div .license_expiration, 
+#licenses_osx div .license_expiration
+{
+	margin-left:20px;
+	background: url(Images/ico_aviso.gif) no-repeat;
+	padding-left:20px;
+}
+
+#licenses_p div .license_autorenewal 
+{
+	margin-left:20px;
+	padding-left:20px;
+}
+
+
+
+#licenses_p #list_licenses .link_more 
+{
+	margin-top:5px;
+}
+
+#licenses_p #list_licenses TABLE td.numberLicense, 
+#licenses_osx #list_licenses_osx TABLE td.numberLicense
+{
+	 padding-left:10px;
+	 text-align:left;	
+}
+
+#licenses_p #list_licenses TABLE tr td, 
+#licenses_osx #list_licenses_osx TABLE tr td
+{
+	padding-top:8px!important;
+}
+
+#advises ul li.disk_orange 
+{
+	list-style-image:url(Images/Bola_Naranja.gif);
+}
+
+#graphs #ctl00_MCPH_GraphsUpdatePanel
+{
+	margin-top:0 !important!	
+}
+
+.panelTitle
+{
+    line-height: 24px;
+    font-weight:bold;	
+	color:white;
+	text-align: left;
+	background-color: #2b6fa2;
+    padding-left: 10px;
+}
+
+.panelContent 
+{
+    height: 270px;
+}
+
+#graphs #kind_graph
+{
+	text-align: left;
+	width:49%;
+	float: left;
+	border:1px solid #8AA8D3;
+}	
+
+#graphs #origin_graph
+{
+	text-align: right;
+	width:49%;
+	float: right;
+	border:1px solid #8AA8D3;
+}
+
+#graphs #web_access_graph
+{
+	text-align: left;
+	width:49%;
+	float: left;
+	border:1px solid #8AA8D3;
+	margin-top:15px;
+	margin-top:9px!important!;
+}		
+
+#graphs div table
+{	
+	cursor: pointer;
+}
+
+#graphs tr.legend
+{
+	font-weight:bold;	
+	color:white;
+	background: #2b6fa2;
+	height:24px;
+	text-align: left;
+}
+
+#graphs tr.legend td {
+	vertical-align: middle;
+}
+
+#graphs div table tr td.chartOrigin_image
+{
+    width:245px;
+    padding: 10px 5px 10px 0px;
+}
+
+#graphs div table tr td.chartWAccess_image
+{
+    height: 245px;
+}
+
+#graphs div table tr td
+{
+    vertical-align:top;
+    padding-right:5px;
+}
+
+#graphs div table tr td div table
+{
+	border:none;
+	font-weight:normal;
+	color: #333;
+	text-align: left;
+}
+
+#graphs div table tr td div table tr td img
+{
+	margin-top:3px;
+}
+
+#graphs div table tr td div table tr td.legend_color
+{
+	width:20px;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+#graphs #IDS_detections table tr td
+{
+	font-family:Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	color:gray;
+}
+
+#graphs #IDS_detections table tr td strong
+{
+	font-weight:bold;
+}
+#graphs #IDS_detections
+{
+    padding:5px;
+    padding-left:20px;
+}
+
+#graphs #chartType_legend
+{
+    padding: 15px;
+}
+
+#graphs #chartOrigin_legend
+{
+    padding: 15px;
+}
+
+#graphs #space
+{
+    padding:5px;
+    padding-left:20px;
+}
+
+#originDetections
+{
+    position: relative;
+}
+
+#monitoringLink1
+{
+    position:absolute;
+    bottom:5px;
+    right:0px;    
+}
+
+#typeDetections
+{
+    position: relative;
+}
+
+#monitoringLink2
+{
+    position:absolute;
+    bottom:5px;
+    right:0px;    
+}
+
+#licenses ul
+{
+	/*font-family:Verdana, Arial, Helvetica, Sans-Serif;
+	font-size:11px;*/
+	font-weight:normal;
+	color: #333;
+	vertical-align: text-top;
+}
+#licenses ul li
+{
+	margin-top: 6px;
+}
+
+#advises ul
+{
+	font-weight:normal;
+	color: #333;
+	vertical-align: text-top;
+}
+
+.guideTitle
+{
+	font-size:22px;
+	font-weight:bold;
+	color: #013364;
+	padding-left: 20px;
+}
+
+.guideText
+{
+	color: #333;
+	padding-left: 20px;
+}
+
+#guide_body table
+{
+	font-weight:normal;
+	color: #333;
+	padding:0;
+	margin:0;
+}
+
+#guide_body table tr td img
+{
+	margin:0;
+	margin-left:10px;
+}
+
+.volver a
+{
+	font-weight:normal;
+	text-decoration: underline;
+    color:#36c;
+	cursor: pointer;
+	float: right;
+	padding-right: 0;
+}
+
+/* Maintenance */
+
+.tabstripContainer
+{
+	margin-top: -20px;
+}
+
+.maintenances_grid
+{
+	width:100%;
+	margin-top:0;
+	_padding-bottom: 10px !important;
+}
+
+#navbar-top
+{
+	/*font-family:Verdana, Arial, Helvetica, Sans-Serif;
+	font-size:11px;*/
+	font-weight:normal;
+	width: 100%;
+	margin-bottom: -4px !important!;
+}
+
+#navbar-top #moveto-top ul
+{
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom:20px;
+}
+
+#navbar-top #elements_top
+{
+	width: 68%;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	padding-top:5px;
+}
+
+#ctl00_MCPH_grid
+{
+	width: 100%;
+}
+
+.navbar .moveto
+{
+	padding:0;
+	float:left;
+	width:20%;	
+	height:48px;
+	min-height: 48px;
+	color:#333;
+	padding-top: 10px;
+}
+
+.navbar .elements
+{
+	float:right;
+	width: 79%;
+	height:34px;
+	min-height: 34px;
+}
+.navbar .elements #elements
+{
+	float: left;
+	padding-top: 16px;
+	padding-top: 18px !important!;
+}
+
+.navbar .elements #elements_page
+{
+	float: right;
+	padding-top: 12px;
+}
+
+#ctl00_MCPH_grid #grid-body #navbar-bottom
+{
+	width: 100%;
+	position: relative;
+	margin:0;
+	margin-top: -25px !important!;
+	padding: 0;
+}
+
+*html #navbar-bottom a
+{
+	font-weight:normal;
+	color:#36c;
+	text-decoration: underline;
+}
+	
+#navbar-bottom ul
+{
+	position: relative;
+	margin:0;
+	padding:0;
+	margin-left: 10px !important!;
+}
+
+#navbar-bottom li
+{
+	overflow:hidden;
+}
+
+#navbar-bottom li div
+{
+	overflow:hidden;
+	width:200px;
+	border:1px solid #36c;
+	clear:none;
+}
+
+#moveto_bottom 
+{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+    
+#ctl00_MCPH_I_moveto_bottom2
+{
+	margin-left:10px;
+}
+    
+#ctl00_MCPH_I_moveto_bottom4
+{
+	margin-right:10px;
+}    
+    
+
+#ctl00_MCPH_grid #grid-body #moveto_bottom  ul li 
+{
+	display: inline-block;
+	display:inline !important!;	
+	margin-top: -12px;
+	margin-top: 9px !important!;
+}
+
+#maintenance_grid
+{
+	width: 100%;
+	float:left;
+	_margin-top: -10px;
+}
+
+#maintenance_grid .AspNet-GridView-Bottom
+{
+	position: relative;
+	top: 13px;
+}
+
+.grid_content{
+	width: 100%;
+    margin-top:10px;}
+
+.grid_content table td{
+	color:#3A4C67;
+}	
+.grid_content table td a
+{
+	cursor:pointer;
+	display:inline-block;
+	color:#36c;
+	text-decoration: underline;
+}
+
+.grid_content .AspNet-GridView-Table 
+{
+	min-height: 10px;
+	height: auto !important;
+	height: 190px;
+}
+
+#navbar-top-other
+{
+	font-weight:normal;
+	width: 100%;
+	margin-bottom: -4px !important!;
+}
+
+#navbar-top-other #moveto-top-other ul
+{
+	margin-left: 0;
+	padding-left: 0;
+    margin-bottom:20px;}
+
+#navbar-top-other #elements_top_other
+{
+	width: 68%;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	padding-top: 5px;
+}
+
+#ctl00_MCPH_maintenance_grid_other
+{
+	width: 100%;
+}
+
+#ctl00_MCPH_grid_other #grid-body-other #navbar-bottom-other
+{
+	width: 100%;
+	position: relative;
+	margin:0;
+	margin-top: -25px !important!;
+	padding: 0;
+}
+
+*html #navbar-bottom-other a
+{
+	font-weight:normal;
+    color:#36c;
+	text-decoration: underline;
+}
+	
+#navbar-bottom-other ul
+{
+	position: relative;
+	margin:0;
+	padding:0;
+}
+#navbar-bottom-other li
+{
+    overflow:hidden;}
+    
+#ctl00_MCPH_I_moveto_bottom2_other
+{
+    margin-left:10px;}
+    
+#ctl00_MCPH_I_moveto_bottom4_other
+{
+    margin-right:10px;}    
+
+.navbar .elements #elements_other
+{
+	float: left;
+	padding-top: 16px;
+	padding-top: 16px !important!;
+}
+
+.navbar .elements #elements_page_other
+{
+	float: right;
+	/*padding-top: 16px;*/
+	padding-top:10px;
+}
+
+#navbar-bottom-other li div
+{
+	overflow:hidden;
+	width:200px;
+	border:1px solid #36c;
+	clear:none;
+}
+#moveto_bottom_other
+{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#ctl00_MCPH_grid_other #grid-body-other #moveto_bottom_other  ul li 
+{
+	display: inline-block;
+	display:inline !important!;	
+	margin-top: -12px;
+	margin-top: 9px !important!;
+}
+
+#maintenance_grid_other
+{
+	width: 100%;
+	float:left;
+	_margin-top: -10px;
+}
+
+#maintenance_grid_other .AspNet-GridView-Bottom
+{
+	position: relative;
+	top: 13px;
+}
+.AspNet-GridView .LicExpired,
+.AspNet-GridView .LicExpired a:link, .AspNet-GridView .LicExpired a:visited
+{
+	color:Red;
+}
+.AspNet-GridView .LicForExpire,
+.AspNet-GridView .LicForExpire a:link, .AspNet-GridView .LicForExpire a:visited
+{
+	color:#FF8000;
+}
+
+/*
+	LICENSE RELEASE
+*/
+
+.OptionsFlyoutPopup
+{
+	border:1px solid #ccc;
+	padding: 3px;
+	text-align: left;
+	background:#eee;
+	z-index: 100;
+	margin-top: 2px;
+	margin-left:0;
+	font-weight:normal;
+	
+}
+
+.OptionsFlyoutPopup A, .OptionsFlyoutPopup A:visited
+{
+	color: #000 !important;
+	cursor: pointer;
+	border:1px solid #ccc;
+	padding: 1px 3px;
+	height: 15px;
+	text-align: left;
+	text-decoration: none !important;
+	white-space: nowrap;
+}
+.OptionsFlyoutPopup A:hover, .OptionsFlyoutPopup A:active
+{
+	background:#eee;
+	color: #000 !important;
+	cursor: pointer;
+	border:1px solid #ccc;
+	padding: 1px 3px;
+	height: 15px; 
+	text-decoration: none !important;
+	white-space: nowrap;
+}
+
+.Options .FilterManagementFlyoutPopArrow
+{
+	margin: 4px 0 0 0;
+	position:relative;
+}
+
+.Options .FilterManagementFlyoutStatic
+{
+	color:#000;
+	display:block;
+	font-weight:normal;
+	background: transparent;
+	margin:5px 4px 0 6px;	
+	padding:2px;
+}
+.Options .FilterManagementFlyoutStaticHover
+{
+	color:#000;
+	display:block;	
+	background:#FC6;
+	cursor:pointer;
+	font-weight:normal;
+	margin:5px 4px 0 6px;
+	padding:2px;
+}
+
+.search
+{
+	border:1px solid #DEDCDC;
+	background:#E3E3E3;
+	font-weight:bold;
+	color:#3A4C67;		
+	line-height: 11px;
+	float: inherit;
+	display:inline-block;
+	width:100%;
+}
+.search .searchDetail
+{
+	padding:5px ;
+}
+.search .searchDetail input.imgCalendario
+{
+	vertical-align: -3px;
+}
+
+.search .searchDetail .title
+{
+	font-weight:bold;
+	color:#3A4C67;
+	float:left;
+	margin:6px 4px 0 6px;
+}
+.search .searchDetail #ShowFilterAffected, .search .searchDetail #ShowFilterAdmon
+{
+	font-weight:normal;
+	color:#000;
+}
+.search .searchDetail #ShowFilterAffected .calendarinput, .search .searchDetail #ShowFilterAdmon .calendarinput
+{
+	width:80px;
+}
+.navbar-top
+{
+	font-weight:normal;
+	width: 100%;
+}
+
+.navbar-top .moveto-top
+{
+	width: 29%;
+	margin: 0;
+	float: left;
+	position: relative;
+	padding-top: 16px;
+}
+
+.navbar-top .moveto-top ul
+{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.navbar-top .elements_top
+{
+	width: 68%;
+	margin: 0;
+	position: relative;
+}
+
+.navbar .moveto li
+{
+	display: inline;
+	list-style-type: none;
+	padding-right: 0;
+}
+
+.navbar .elements .elements
+{
+	float: left;
+	width: auto;
+	padding:0;
+}
+
+.navbar .elements .elements_page
+{
+	float: right;
+}
+
+.navbar-bottom
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	_padding-bottom: 15px;
+}
+
+*html .navbar-bottom a
+{
+	font-weight:normal;
+	color:#36c;
+	text-decoration: underline;
+}
+	
+.navbar-bottom ul
+{
+	position: relative;
+	margin:0;
+	padding:0;
+	margin-top: -1px;
+	margin-top: -12px !important!;
+}
+.navbar-bottom li
+{
+	overflow:hidden; 
+	margin-left:10px; 
+}
+
+.navbar-bottom li div
+{
+	overflow:hidden;
+	width:200px;
+	border:1px solid #36c;
+	clear:none;
+}
+
+.navbar-bottom .moveto_bottom 
+{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.moveto_bottom  ul li 
+{
+	display: inline-block;
+	display:inline !important!;	
+	position: relative;
+	margin-top: -12px;
+	margin-top: -1px !important!;
+	float:left;
+}
+
+#affectedpc_grid, #pcadmon_grid
+{
+	width: 100%;
+}
+
+#ctl00_MCPH_AffectedPCUpdatePanel .AspNet-GridView-Pagination
+{
+	position: relative;
+	top: 50px;
+}
+
+#ctl00_MCPH_AffectedPCUpdatePanel .moveto_bottom  ul li
+{
+	margin-top: 21px;
+	margin-top: 30px !important!;
+}
+
+.grid_content
+{
+	width: 100%;
+	top : -1px;
+	margin: 0;
+	
+}
+
+.grid_content table td
+{
+	color:#3A4C67;
+}	
+
+.grid_content table td a
+{
+	cursor:pointer;
+	display:inline-block;
+	color:#36c;
+	text-decoration: underline;
+}
+
+.table-footer
+{
+	text-align: right;
+}
+
+.text11
+{
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.text12
+{
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.header-text
+{
+    //margin-top:0;
+}
+
+.table-header
+{
+    text-align:right;
+    margin-bottom:5px;
+    float: right;
+}
+
+.textGrayed 
+{
+    color:#AAA;
+}
+
+#ctl00_MCPH_AffectedPCUpdatePanel .navbar-top .moveto-top 
+{
+	padding-top: 13px;
+}
+
+#navbar-top-adm
+{
+	font-weight:normal;
+	width: 100%;
+	margin-bottom: -4px !important!;
+}
+
+#navbar-top-adm #moveto-top-adm ul
+{
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#navbar-top-adm #elements_top-adm
+{
+	width: 68%;
+	margin: 0;
+	vertical-align: bottom;
+	position: relative;
+	padding-top: 5px;
+}
+
+.navbar .elements #elements_page-adm
+{
+	float: right;
+	padding-top: 12px;
+}
+
+#moveto-top, #moveto-top-other
+{
+	padding-top: 22px !important!;
+}
+
+.keyText{
+	background:transparent url("Images/Icono_informacion.gif") no-repeat 5px;
+	padding:4px 5px 0 25px;
+	font-family:Verdana, Arial, Helvetica, Sans-Serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#333;
+	height:18px;
+	overflow:hidden;
+	display:inline-block;
+	float:right;
+	clear:left;
+	cursor:pointer;
+	margin-bottom:10px;
+	border: 1px solid white;
+}
+
+.keyText:hover
+{
+	border-color:#333;	
+	border-style:dotted;
+}
+
+.ulLeft
+{
+	margin: 5px 10px 0px 5px; 
+	float:left;
+	list-style-type: none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.liImage
+{
+	vertical-align:middle;
+	POSITION: relative; 
+	FLOAT: left;
+	margin-right:10px;
+}
+
+.liText
+{
+	position:relative;
+}
+
+.UnitIcon
+{
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.textRight{
+	text-align:right;
+}
+
+.margin5{
+	margin-top:5px!important;
+}
+
+#ctl00_MCPH_fullControlLinks p
+{
+    text-align: right!important;
+    line-height: 10px!important; 
+}
+
+#ctl00_MCPH_group_win_lin
+{
+    margin-bottom: 30px;
+}
+
+#maintenance_grid table thead th.izquierda25
+{
+    padding-left: 15px !important;
+}
+
+.header_title
+{
+    float: left;    
+}
+
+#ctl00_MCPH_DDL_LicenseRelease
+{
+    margin-left: 0;    
+}
+
+#ctl00_MCPH_MultiTabAffected_Admin_Tab_Admin_T_SearchAdmin, #ctl00_MCPH_MultiTabAffected_Admin_Tab_Affected_T_Search
+{
+    padding: 1px 4px;    
+}
