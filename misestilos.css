@@ -100,3 +100,7 @@ time
 	color: #999999;
 }
 
+figcaption
+{
+	font: italic 14px verdana, sans-serif;
+}
