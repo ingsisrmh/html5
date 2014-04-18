@@ -34,3 +34,50 @@ body
 	margin: 15px auto;
 	text-align: left;
 }
+
+/*Le da estilo a la barra de título*/
+#cabecera
+{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+}
+
+/*Da estilo a la barra de navegación*/
+#menu
+{
+	background: #CCCCCC;
+	padding: 5px 15px;
+}
+
+#menu li
+{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+
+#area_principal
+{
+	float: left;
+	width: 660px;
+	margin: 20px;
+}
+
+#barra_lateral
+{
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+}
+
+#pie
+{
+	clear: both; /*Indica que el valor no será flotante*/
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
