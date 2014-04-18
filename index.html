@@ -8,10 +8,11 @@
 	<link rel="stylesheet" href="misestilos.css"/>
 </head>
 <body>
-	<header>
+<div id="caja_principal">
+	<header id="cabecera">
 		<h1>Título principal de la página</h1>
 	</header>
-	<nav>
+	<nav id="menu">
 		<ul>
 			<li>Inicio</li>
 			<li>Imágenes</li>
@@ -19,13 +20,14 @@
 			<li>Contacto</li>
 		</ul>
 	</nav>
-	<section>
+	<section id="area_principal">
 		<article>
 			<header>
 				<hgroup>
 					<h1>Título de la primera entrada</h1>
 					<h2>Subtítulo de la primera entrada</h2>
 				</hgroup>
+				<time datetime="2013-01-02" pubdate>Publicado el 12-01-2013</time>
 			</header>
 			Éste es el texto de mi primera entrada.
 			<figure>
@@ -40,8 +42,11 @@
 		</article>
 		<article>
 			<header>
-				<h1>Título de la segunda entrada</h1>
-				<h2>Subtítulo de la segunda entrada</h2>
+				<hgroup>
+					<h1>Título de la segunda entrada</h1>
+					<h2>Subtítulo de la segunda entrada</h2>
+				</hgroup>
+				<time datetime="2013-01-15" pubdate>Publicado el 15-01-2013</time>
 			</header>
 			Éste es el texto de mi segunda entrada.
 			<footer>
@@ -49,12 +54,13 @@
 			</footer>
 		</article>
 	</section>
-	<aside>
+	<aside id="barra_lateral">
 		<blockquote>Cita del artículo 1</blockquote>
 		<blockquote>Cita del artículo 2</blockquote>
 	</aside>
-	<footer>
+	<footer id="pie">
 		Copyrigt &copy; 2014
 	</footer>
+</div>
 </body>
 </html>
