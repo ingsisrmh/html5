@@ -1,0 +1,6 @@
+/*Selector universal*/
+*
+{
+	margin: 0px; /*Margen exterior de cero*/
+	padding: 0px; /*Margen interior de cero*/
+}
